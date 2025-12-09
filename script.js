@@ -39,3 +39,30 @@ validateUser("Kim ji-won", function (err, result) {
         })
     }
 })
+
+
+// STEP 1 → validateUser(username, callback)
+
+// Runs after 1 second
+
+// If username is empty ("")
+
+// callback with error: "Invalid username"
+
+// Else
+
+// callback with no error and message: "User validated"
+
+// STEP 2 → loadUserProfile(username, callback)
+
+// Runs after 1 second
+
+// Always succeed
+
+// callback result: "Profile loaded"
+
+// STEP 3 → sendWelcome(username, callback)
+
+// Runs after 1 second
+
+// callback result: "Welcome <username>"
